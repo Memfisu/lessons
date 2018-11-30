@@ -9,4 +9,7 @@
 
 ---
 Дополнительное задание:
-Используя метод `.filter()` у массива реализовать удаление задачи из массива по названию задачи
+Используя метод `.indexOf()` и `.splice()` у массива реализовать удаление задачи из массива по названию задачи
+
+[Подробнее о indexOf](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+[Подробнее о splice](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
