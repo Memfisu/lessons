@@ -1,0 +1,29 @@
+h1 {
+    color: coral;
+    text-align: right;
+}
+
+.red-text {
+    color: red;
+}
+
+.nested-list.super-dotted {
+    color: red;
+}
+
+.nested-list {
+    color: green;
+}
+
+.super-dotted {
+    text-decoration: underline;
+}
+
+#name {
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+.parent-list .nested-list {
+    text-transform: uppercase;
+}

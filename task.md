@@ -1,3 +1,39 @@
+# Задание №2
+Используя компоненты `input` и `button` сделать 4 набора полей, 
+которые будут содержать в себе х2 input и одну кнопку которая будет производить 4 базовые операции: сложение, вычитание, умножение и деление.
+
+
+Пример структуры в html:
+```html
+<div>
+    <input type="text" class="num1"/>
+    <span class="action">+</span>
+    <input type="text" class="num2"/>
+    <button onclick="add(this)">=<button/>
+    <span class="result">0</span>
+</div>
+<div>
+    <input type="text" class="num1"/>
+    <span class="action">-</span>
+    <input type="text" class="num2"/>
+    <button onclick="substract(this)">=<button/>
+    <span class="result">0</span>
+</div>
+<!-- и так далее -->
+```
+
+В целом каждый input можно обозначить уникальным id, но можно использовать передавамый `this`. 
+
+У родителя вызываемой кнопки (`div` который хранит в себе все поля ввода и саму кнопку) можно найти элементы `input.num1`/`input.num2`.
+
+---
+
+Дополнительное задание: использовать один набор полей, где действие можно определять через `<select>`
+[подробнее о select](https://developer.mozilla.org/ru/docs/Web/HTML/Element/select)
+
+---
+Супер задание: сделать простой калькулятор
+
 # Задание №1
 
 ## Начало работы над списком дел
